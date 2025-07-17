@@ -1,27 +1,49 @@
-# EssentialsPractice
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0-next.2.
+# Investment Calculator – Angular Essentials Practice
 
-## Development server
+<p align="center">
+  <img src="public/cover.png" alt="Investment Calculator Cover" width="400"/>
+</p>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Project Overview
 
-## Code scaffolding
+This project is an **Investment Calculator** built to practice and demonstrate core Angular essentials. It allows users to input investment parameters and view calculated results, reinforcing concepts such as components, services, data binding, and modular architecture. Following Udemy Course - Angular The Complete Guide by Academind.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Technologies & Versions
 
-## Build
+- **Angular**: 18.0.0-next.2
+- **TypeScript**: 5.x
+- **Node.js**: 20.x (recommended)
+- **Angular CLI**: 18.0.0-next.2
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Features
 
-## Running unit tests
+- User-friendly form for investment input
+- Real-time calculation and display of investment results
+- Modular component structure (input, results, header)
+- Service-based business logic
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Purpose
 
-## Running end-to-end tests
+This project is designed as a hands-on exercise to apply and reinforce Angular essentials, including:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+- Component communication
+- Data binding (one-way, two-way)
+- Dependency injection and services
+- Angular module organization
 
-## Further help
+## Getting Started
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+1. **Install dependencies:**
+   ```sh
+   npm install
+   ```
+2. **Run the development server:**
+   ```sh
+   ng serve
+   ```
+   Navigate to [http://localhost:4200/](http://localhost:4200/) in your browser.
+
+## License
+
+This project is for educational purposes only.
